@@ -1,48 +1,37 @@
-# South African Fuel Price Tracker
 
-A data engineering project that extracts, transforms, and analyzes South African fuel price data using Python, Pandas, and SQLite.
-
-## What This Project Does
-
-- Extracts fuel price data from CSV
-- Transforms dates and engineers new features (year, month)
-- Loads clean data into a SQLite database
-- Queries the data using SQL
-- Visualizes price trends over time
+---
 
 ## Tools Used
 
 | Tool | Purpose |
 |------|---------|
 | Python | Programming language |
-| Pandas | Data manipulation |
+| Pandas | Data manipulation and cleaning |
 | SQLite | Lightweight database |
 | Matplotlib | Data visualization |
 | Jupyter Notebook | Interactive development |
 
-## Project Structure
-```
-fuel-price-tracker/
-├── raw_fuel_prices.csv    # Raw data
-├── fuel_prices.db         # SQLite database
-├── 01_extract.ipynb       # Main notebook
-└── README.md              # This file
-```
-
-## What I learned
-
-- Building ETL pipelines end-to-end
-- Data inspection and quality checks
-- SQL querying and aggregation
-- Time series visualization
-- Git version control
-
+---
 
 ## How to Run
 
-1. Clone repository
-2. Open `01_extract.ipynb` in VS Code or Jupyter
-3. Run Cells sequentially
+1. Clone this repository
+2. Open `01_extract.ipynb` or `02_clean_messy_data.ipynb` in VS Code or Jupyter
+3. Run cells sequentially
+
+---
+
+## What I Learned
+
+- Building ETL pipelines end-to-end
+- Data inspection and quality checks
+- Handling missing values (drop, fill with mean)
+- SQL querying and aggregation
+- Pipeline verification (no duplicates, correct counts, outlier detection)
+- Time series visualization
+- Git version control
+
+---
 
 ## About Me
 
